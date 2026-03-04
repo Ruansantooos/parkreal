@@ -48,7 +48,6 @@ export default function Team() {
                             <h3 className="text-2xl font-bold text-white mb-4">Recrutamento Rigoroso</h3>
                             <ul className="space-y-3 text-zinc-400 print:text-zinc-200">
                                 <li>• Aprovação em testes teóricos, práticos e psicotécnicos.</li>
-                                <li>• Verificação de antecedentes criminais.</li>
                             </ul>
                         </div>
 

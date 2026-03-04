@@ -16,9 +16,9 @@ export default function About() {
                         >
                             <div className="absolute inset-0 bg-cyan-500/10 blur-3xl rounded-full print:hidden"></div>
                             <img
-                                src="/garagemMaket.png"
+                                src="/unnamed.jpg"
                                 alt="Garagem Maket Park Real"
-                                className="relative z-10 rounded-2xl border border-zinc-800 shadow-2xl print:shadow-none w-full h-[400px] object-cover"
+                                className="relative z-10 rounded-2xl shadow-2xl print:shadow-none w-full h-[400px] object-cover mix-blend-multiply"
                             />
                         </motion.div>
 

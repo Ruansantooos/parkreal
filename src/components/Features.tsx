@@ -64,7 +64,7 @@ export default function Features() {
                         <div className="bg-cyan-950/30 border border-cyan-900/50 p-8 rounded-2xl print:bg-cyan-900/10">
                             <ShieldCheck className="w-10 h-10 text-cyan-400 mb-6" />
                             <h3 className="text-xl font-bold text-white mb-4">Seguro Completo</h3>
-                            <p className="text-zinc-300 mb-2">Parceria com a Liberty Seguros para cobertura total.</p>
+                            <p className="text-zinc-300 mb-2">Parceria com os melhores seguros para cobertura total.</p>
                             <p className="text-zinc-300">Garantias contra roubo, sinistro e incêndio para veículos.</p>
                         </div>
                     </div>
