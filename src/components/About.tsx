@@ -18,7 +18,7 @@ export default function About() {
                             <img
                                 src="/unnamed.jpg"
                                 alt="Garagem Maket Park Real"
-                                className="relative z-10 rounded-2xl shadow-2xl print:shadow-none w-full h-[400px] object-cover mix-blend-multiply"
+                                className="relative z-10 rounded-2xl border border-zinc-800 shadow-2xl print:shadow-none w-full h-[400px] object-cover"
                             />
                         </motion.div>
 
