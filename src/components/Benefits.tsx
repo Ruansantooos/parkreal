@@ -3,7 +3,7 @@ import { CheckCircle2, Coins, Package, Gift, Shirt } from "lucide-react";
 
 export default function Benefits() {
     return (
-        <section className="py-24 px-6 bg-zinc-950 [break-inside:avoid] print:py-16">
+        <section id="beneficios" className="py-24 px-6 bg-zinc-950 [break-inside:avoid] print:py-16">
             <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-16">
                     <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">Benefícios e Uniformes</h2>
@@ -15,8 +15,9 @@ export default function Benefits() {
                     <motion.div
                         initial={{ opacity: 0, x: -30 }}
                         whileInView={{ opacity: 1, x: 0 }}
+                        whileHover={{ y: -5, borderColor: '#06b6d4', boxShadow: '0 10px 30px rgba(6, 182, 212, 0.15)' }}
                         viewport={{ once: true }}
-                        className="bg-zinc-900 p-10 rounded-3xl border border-zinc-800 print:bg-zinc-800"
+                        className="bg-zinc-900 p-10 rounded-3xl border border-zinc-800 transition-all duration-300 print:bg-zinc-800"
                     >
                         <h3 className="text-2xl font-bold text-white mb-6 flex items-center gap-3">
                             <CheckCircle2 className="text-cyan-500" />
@@ -63,8 +64,9 @@ export default function Benefits() {
                     <motion.div
                         initial={{ opacity: 0, x: 30 }}
                         whileInView={{ opacity: 1, x: 0 }}
+                        whileHover={{ y: -5, borderColor: '#06b6d4', boxShadow: '0 10px 30px rgba(6, 182, 212, 0.15)' }}
                         viewport={{ once: true }}
-                        className="bg-zinc-900 p-10 rounded-3xl border border-zinc-800 flex flex-col print:bg-zinc-800"
+                        className="bg-zinc-900 p-10 rounded-3xl border border-zinc-800 flex flex-col transition-all duration-300 print:bg-zinc-800"
                     >
                         <h3 className="text-2xl font-bold text-white mb-6 flex items-center gap-3">
                             <Shirt className="text-cyan-500" />

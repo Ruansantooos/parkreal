@@ -14,11 +14,12 @@ export default function BusinessModels() {
                     <motion.div
                         initial={{ opacity: 0, x: -30 }}
                         whileInView={{ opacity: 1, x: 0 }}
+                        whileHover={{ y: -10, borderColor: '#06b6d4', boxShadow: '0 10px 30px rgba(6, 182, 212, 0.15)' }}
                         viewport={{ once: true }}
-                        className="bg-zinc-950 p-10 rounded-3xl border border-zinc-800 relative overflow-hidden group print:bg-zinc-800"
+                        className="bg-zinc-950 p-10 rounded-3xl border border-zinc-800 relative overflow-hidden group transition-all duration-300 print:bg-zinc-800 cursor-pointer"
                     >
-                        <div className="absolute top-0 right-0 w-64 h-64 bg-cyan-500/5 rounded-full blur-3xl group-hover:bg-cyan-500/10 transition-colors print:hidden"></div>
-                        <Users className="w-12 h-12 text-cyan-500 mb-6" />
+                        <div className="absolute top-0 right-0 w-64 h-64 bg-cyan-500/5 rounded-full blur-3xl group-hover:bg-cyan-500/20 transition-colors duration-500 print:hidden"></div>
+                        <Users className="w-12 h-12 text-cyan-500 mb-6 group-hover:scale-110 transition-transform duration-300" />
                         <h3 className="text-3xl font-bold text-white mb-6">Parceria</h3>
                         <ul className="space-y-4">
                             {[
@@ -37,8 +38,9 @@ export default function BusinessModels() {
                     <motion.div
                         initial={{ opacity: 0, x: 30 }}
                         whileInView={{ opacity: 1, x: 0 }}
+                        whileHover={{ y: -10, borderColor: '#06b6d4', boxShadow: '0 10px 30px rgba(6, 182, 212, 0.15)' }}
                         viewport={{ once: true }}
-                        className="bg-zinc-950 p-10 rounded-3xl border border-zinc-800 relative overflow-hidden group print:bg-zinc-800"
+                        className="bg-zinc-950 p-10 rounded-3xl border border-zinc-800 relative overflow-hidden group transition-all duration-300 print:bg-zinc-800 cursor-pointer"
                     >
                         <div className="absolute top-0 right-0 w-64 h-64 bg-cyan-500/5 rounded-full blur-3xl group-hover:bg-cyan-500/10 transition-colors print:hidden"></div>
                         <FileText className="w-12 h-12 text-cyan-500 mb-6" />
