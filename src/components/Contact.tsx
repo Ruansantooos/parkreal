@@ -55,7 +55,7 @@ export default function Contact() {
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                         <motion.a
-                            href="mailto:contato@parkreal.com"
+                            href="mailto:Contato@parkreal.com.br"
                             initial={{ opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
@@ -65,7 +65,7 @@ export default function Contact() {
                                 <Mail className="w-6 h-6 text-cyan-500" />
                             </div>
                             <h3 className="text-white font-semibold mb-2">E-mail</h3>
-                            <p className="text-zinc-400 text-sm print:text-zinc-300">contato@parkreal.com</p>
+                            <p className="text-zinc-400 text-sm print:text-zinc-300">Contato@parkreal.com.br</p>
                         </motion.a>
 
                         <motion.a
